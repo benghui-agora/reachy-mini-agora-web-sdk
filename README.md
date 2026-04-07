@@ -74,7 +74,13 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv python install 3.12 --default
 ```
 
-Make sure Git and Git LFS are installed on your OS first, then run:
+Git and Git LFS need to be installed on the OS first. If these has not been installed, run the following commands to install those via brew:
+
+```bash
+brew install git
+brew install git-lfs
+```
+Once Git and Git LFS has been installed on your OS first, then run the following commands:
 
 ```bash
 git lfs install
