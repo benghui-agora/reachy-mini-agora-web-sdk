@@ -97,7 +97,7 @@ git clone <repo-url> reachy-mini-agora-web-sdk
 
 3. Start daemon (Terminal A)
 ```bash
-source /path/to/venv/bin/activate
+source reachy_mini_env/bin/activate
 reachy-mini-daemon
 ```
 > **Note:** If no physical Reachy Mini robot is connected, you will see the warning
